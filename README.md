@@ -1,3 +1,4 @@
-Homework assignment #2
+Personal Page
 
-Objective of the assignment was to update current webpage using the bootstarp tool.
+The objective of this page is to market myself to potential employers and to showcase my past projects.
+
