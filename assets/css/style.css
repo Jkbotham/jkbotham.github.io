@@ -6,20 +6,31 @@
         background-color: #ffffff;
         border-color: #aaaaaa;
         padding: 1.5rem;
-        margin: 1.5rem 2% 2rem 1%;
+        margin-top: 15px;
  }
+
+ #portPad {
+    padding: 1.5rem 0 0 0;
+ }
+
 #name {
     background-color: #2a623d;
     color: 	#eeeeee;
     border: 0px solid #cccccc;
-    margin-left: 1%;
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: bold;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
     }
 
- h1, h2, h5{
+    #round {
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+    }
+
+ h1, h2, h5, h6{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     color: #5d5d5d;
@@ -36,11 +47,11 @@ h1 {
     padding: 0;
     margin: 0;
 }
-a {
-    color: 	#eeeeee;
+
+#portH1 {
+    /* margin: 7px; */
+    padding: 10px 0 10px 20px;
 }
-
-
 
 hr {
     display: outset;
@@ -57,25 +68,46 @@ hr {
     background-color: #ffffff;
     border-color: #cccccc;
  }
+ 
+ a {
+    color: 	#eeeeee;
+}
 
  a:hover{
     color: #2a623d;
     background-color: #aaaaaa;
 }
 
-
  .navbar-brand
 {
     margin: 0;
 }
 
+@media (max-width: 768px){
+
+    .workingTogImg {
+        max-width: 60%;
+    }
+    .minH {
+        min-height: 50px;
+    }
+}
+
 @media (max-width: 640px) { 
+
 #name{
     width: 100%;
     text-align: center;
 }
-.navbar {
+#navbar {
     justify-content:  center; 
+    background-color: #2a623d;
+}
+.workingTogImg {
+    max-width: 50%;
+}
+.minH {
+    min-height: 50px;
 }
 }
 
@@ -83,9 +115,6 @@ hr {
     text-align: center;
     background-color: #5d5d5d;
     border-top: 8px solid #2a623d;
-    /* height: 50px; */
-    /* left: 0;
-    bottom: 0; */
 }
 
 .projects {
@@ -125,11 +154,26 @@ hr {
     margin-bottom: 0;
 }
 
+.workTogether {
+    background-color: #2a623d;
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+}
+.workingTogImg {
+    border-radius: 1rem;
+}
 
-/* 	#5d5d5d
+.dkColor{
+    color: #0b0c01;
+    text-decoration: underline;
+    list-style-type: none;
+}
 
-#2a623d
+ul {
+    list-style-type: none;
+  }
 
-#957b5f
-
-	#5d5d5d */
+  /* #cRange{
+    /* -webkit-appearance: none; */
+    /* background: green; */
+    /* height: 24px; */
+  /* } */ */
