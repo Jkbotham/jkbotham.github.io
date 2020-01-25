@@ -138,7 +138,7 @@
 ------------------------------------------------------*/
 
    $('form#contactForm button.submit').click(function() {
-
+      event.preventDefault()
       $('#image-loader').fadeIn();
 
       var contactName = $('#contactForm #contactName').val();
@@ -152,31 +152,15 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "/inc/sendEmail.php",
-	      data: data,
-	      success: function(msg) {
+	      url: "https://formspree.io/xgeajyby",
+         data: data
+      })
 
-            // Message was sent
-            if (msg == 'OK') {
-               $('#image-loader').fadeOut();
-               $('#message-warning').hide();
-               $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
-            }
-            // There was an error
-            else {
-               $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
-	            $('#message-warning').fadeIn();
-            }
-
-	      }
-
-      });
-      return false;
+            $('#image-loader').fadeOut();
+            $('#message-warning').hide();
+            $('#contactForm').fadeOut();
+            $('#message-success').fadeIn();   
    });
-
-
 });
 
 
