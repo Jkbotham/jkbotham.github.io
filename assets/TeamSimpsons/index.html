@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Cairo|Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ff09436a7.js" crossorigin="anonymous"></script>
+    <!-- font-family: 'Cairo', sans-serif; h1
+  font-family: 'Arvo', serif; h2
+  font-family: 'Varela Round', sans-serif; CONTAINER -->
+    <title>Sportsball 9000</title>
+</head>
+
+<!-- header / jumbotron -->
+
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Sportsball 9000</h1>
+            <h2 id=subTitle>The most premier website in sports history</h2>
+        </div>
+
+    </header>
+
+    <!-- container -->
+    <div class="container-fluid">
+
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-light p-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="dropdown-item teamBtn" data-sportsDb="134946">Arizona Cardinals</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134942">Atlanta Falcons</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134922">Baltimore Ravens</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134918">Buffalo Bills</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134943">Carolina Panthers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134938">Chicago Bears</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134923">Cincinnati Bengals</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134924">Cleveland Browns</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134934">Dallas Cowboys</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134930">Denver Broncos</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134939">Detroit Lions</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="dropdown-item teamBtn" data-sportsDb="134940">Green Bay Packers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134926">Houston Texans</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134927">Indianapolis Colts</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134928">Jacksonville Jaguars</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134931">Kansas City Chiefs</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="135908">Los Angeles Chargers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="135907">Los Angeles Rams</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134919">Miami Dolphins</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134941">Minnesota Vikings</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134920">New England Patriots</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134944">New Orleans Saints</span>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="dropdown-item teamBtn" data-sportsDb="134935">New York Giants</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134921">New York Jets</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134932">Oakland Raiders</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134936">Philadelphia Eagles</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134925">Pittsburgh Steelers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134948">San Francisco 49ers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134949">Seattle Seahawks</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134945">Tampa Bay Buccaneers</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134929">Tennessee Titans</span>
+                            <span class="dropdown-item teamBtn" data-sportsDb="134937">Washington Redskins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </nav>
+    </div>
+
+    <!--row -->
+    <div class="bodycard">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <img src="#" alt="NFL Team Logo"> -->
+
+                <div class="card border-dark mb-3 cardAlign" style="max-width: 85rem;">
+                    <div class="card-header"></div>
+                    <div class="card-body text-black">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <div id="leftside">
+                                    <img src="assets/images/imgNotFound.png" class="img-fluid" id="stadiumImg" alt="stadium image">
+                                    <h5>Stadium Location:</h5>
+                                    <div id="stadium"></div>
+                                    <h5>Stadium Address:</h5>
+                                    <div id="address"></div>
+                                    <h5>Venue Details via <a href="" id="venue">TicketMaster</a></h5>
+                                </div>
+                            </div>
+                            <!-- card side 2 -->
+
+                            <div class="col-md-6">
+                                <div id="rightside">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2 id="nextGame">Next Game</h2>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="assets/images/imgNotFound.png" class="img-fluid" id="logoImg1" alt="logo1">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div id="versus">
+                                            <h5>VS<h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="assets/images/imgNotFound.png" class="img-fluid" class="img-fluid" id="logoImg2" alt="logo2">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5>Kickoff: <span id="date"></span></h5>
+                                                <h5><a href="" id="buyTickets">Buy Tickets</a></h5>
+                                                <div class="pricingNotWorking">
+                                                    <h6>Pricing not available</h6>
+                                                </div>
+                                                <div class="pricingWorking">
+                                                <h6>Pricing:</h6>
+                                                <h5>Min: $<span id="min"></span>.00</h5>
+                                                <h5>Max: $<span id="max"></span>.00</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-md-12">
+                              <h5>Parking Info:</h5><div id="parkingInfo"></div>
+                              <h5>Entry Info:</h5><div id="entryInfo"></div>
+                            </div>  
+                          </div> 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="card-text" style="text-align:center">
+                                    <a class="fab fa-twitter-square" style="font-size: 50px; color:darkred; padding:10px;"></a>
+                                    <a class="fab fa-instagram" style="font-size: 50px; color: darkred; padding:10px;"></a>
+                                    <a class="fab fa-facebook-square" style="font-size: 50px; color:darkred; padding:10px;"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>
+                Sportsball 9000, all rights reserved. Proud sponsor of the internet.
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javaScript/script.js"></script>
+</body>
+
+</html>

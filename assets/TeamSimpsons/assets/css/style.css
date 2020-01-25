@@ -1,0 +1,148 @@
+.jumbotron{
+    padding: 15px;
+    margin-bottom: 0;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: darkred;
+    border-bottom: dark-gray;
+}
+.teamBtn {
+        cursor: pointer; 
+        list-style: none;
+}
+h1{
+    font-size: 70px;
+    text-shadow: rgb(255, 123, 0) 1px 0 10px;
+}
+
+h2{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+    background-image:url(../images/prism.png);
+}
+
+.bodycard{ 
+    padding: 30px;
+    font-family: 'Cairo', sans-serif;
+    margin: 10px;
+    background-color: white, .66;
+}
+
+.card-header{
+    font-family: 'Arvo', serif;
+    font-size:30px;
+}
+
+h5{
+    font-family: 'Varela Round', sans-serif; 
+    font-size:20px;
+    padding-top: 15px;
+}
+
+h6{
+    font-family: 'Varela Round', sans-serif; 
+    font-size:25px;
+    padding-top: 15px;
+}
+
+#versus{
+   text-align: center;
+}
+
+#leftside{
+    padding:10px;
+}
+
+#rightside{
+    border-left: 2px solid black;
+    padding: 20px;
+}
+
+.cardAlign{
+    margin: auto;
+}
+
+.footer{
+    background-color:#666666;
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    color: black;
+    height: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid darkred;
+    text-align: center;
+    margin: 0;
+    right: 0;
+    left:0;
+}
+
+.container-fluid{
+    padding-right:0;
+    padding-left:0;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 640px) {
+    /* For small devices: */
+    #rightside{
+        border-top: 2px solid black;
+        border-left:none;
+    }
+
+    .container-fluid{
+        padding-right:0;
+        padding-left:0;
+    }
+  }
+   
+  @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+        margin:auto 0;
+      }
+
+      .container-fluid{
+        padding-right:0;
+        padding-left:0;
+    }
+    }
+  
+    @media only screen and (max-width: 980px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+        margin:auto 0;
+      }
+
+      .container-fluid{
+        padding-right:0;
+        padding-left:0;
+    }
+    }
+  
+    #parkingInfo{
+        width:100%;
+        height:75px;
+        overflow:scroll;
+        word-wrap: break-word;
+    }
+    #entryInfo{
+        width:100%;
+        height:90px;
+        overflow:scroll;
+        word-wrap: break-word;
+    }
+
+    #nextGame {
+        text-align: left;
+        text-decoration: underline;
+    }

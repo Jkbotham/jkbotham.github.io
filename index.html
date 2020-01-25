@@ -1,64 +1,596 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>About James Botham</title>
-  </head>
-  <body>
-        <nav class="navbar border p-0 m-0" id="navbar">
-                <span class="navbar-brand h2" id="name">James Botham</span>
-        <ul class="nav justify-content-end" >
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html" id="round">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li id="small" class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-        </nav>
-    
-      <div class="content">
-      <div class="container border mr-15">
+<head>
 
-          <div class="row">
-              <div class="col-md-12">
-                    <h1>About</h1>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-12">
-                  <hr>
-              </div>
-          </div>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>James Botham</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
 
-        <div class="row">
-            <div class="col-md-3">
-                   <img src="assets/images/headshot.heic" class="img-fluid rounded d-block pb-3" alt="James Botham" >
-            </div>
-            <div class="col-md-9">
-                <p class="text-justify"> My name is James Botham and I'm studying to become a web developer. I grew up in the west suburbs of Minneapolis and attended Augsburg University, graduating with a business management degree. Upon graduation I started a frozen food distribution company based in Minneapolis, MN.  After growing the company for a few years and doing over $700,000 in sales per year I decided to try my hand at something new.
-                In my free time I like to play computer games such as Pubg, Counterstrike, World of Warcraft, and many other titles.  My other hobbies include boating on Lake Minnetonka, bouldering at my local gym, and playing golf.</p>  
-                
-            </div>
-        </div>
-        </div>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+   <link rel="shortcut icon" href="./images/logo.png">
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">James Botham</h1>
+            <h3>James is a Minneapolis based <span>Web Deveolpment</span> student creating awesome web applications using
+               <span>MongoDB, Express.js, React.js and Node.js</span>. Lets
+               <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll"
+                  href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-ban"></i></a></li> -->
+               <li><a href="https://github.com/Jkbotham"><i class="fa fa-github-square"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/jamesbotham/"><i class="fa fa-linkedin"></i></a></li>
+               <!-- <li><a href="#"><i class="icon-mail-1"></i></a></li> -->
+               <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+            </ul>
+         </div>
       </div>
-      <div class="fixed-bottom page-footer font-small blue pt-2">
-          <p id="footerText">copyright</p>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="images/headshot.jpg" alt="James Botham headshot" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+               James Botham is an Area Market Manager with experience in small business expansion and growth. Two years after leading an expansion into the Minneapolis Market has added nearly 200 retail locations and in 2018 did $700,000 in sales.
+            </p>
+
+            <p> 
+               James is currently following his passion for tech and making a career change into Web Development.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                     <span>James Botham</span><br>
+                     <span>(612)388-3444</span><br>
+                     <span>james@jamesbotham.com</span>
+                  </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="./assets/Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
       </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Minnesota</h3>
+                  <p class="info">Full Stack Web Development Certificate <em>(In Progress)</em><span>&bull;</span> <em
+                        class="date">March 2020</em></p>
+                     <!-- <p>
+                        
+                     </p> -->
+               </div>
+
+            </div>
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Augsburg University</h3>
+                  <p class="info">Bachelor of Arts in Business Managment <span>&bull;</span> <em class="date">May
+                        2017</em></p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Thelma's Treats</h3>
+                  <p class="info">Market Area Manager<span>&bull;</span> <em class="date">October 2015 - July 2019</em></p>
+
+                  <p>
+                     Lead the expansion of Thelma’s ice cream sandwich distribution in the
+                     Minnesota market. Built the business from 11 Kowalski’s locations in January
+                     of 2016 to over 195 grocery stores (Lunds, Hy-Vee, Cub, Target) in 2018 and
+                     sales of $700,000.
+                  </p>
+
+                  <p>
+                     Hired and lead a team of 15 part time brand ambassadors promoting the brand
+                     and product though in store sampling and community events. (Uptown Art
+                     Fair, Grand Old Days, St. Paul Saints Stadium). In the first year alone, our
+                     demo staff was responsible for handing out over 50,000 samples.
+                     As sales increased and the market grew, I acquired larger warehouse space,
+                     built additional walk in freezer capacity, acquired additional delivery vehicles,
+                     and brought on a second full time employee.
+                  </p>
+
+                  <p>
+                     In running the market, I was responsible for a wide variety of day to day
+                     responsibilities including: sales forecasting, inventory management,
+                     maintaining food and distribution licenses with Dept of Agriculture, creating
+                     delivery routes, invoicing and bill paying, employee training and equipment
+                     and warehouse maintenance.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Wayzata Fire Department</h3>
+                  <p class="info">Firefighter <span>&bull;</span> <em class="date">May 2008 - September 2012</em></p>
+
+                  <p>
+                     Fire Prevention Education, EMS applicaitons, Emergency Response
+                  </p>
+
+               </div>
+
+            </div>
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Radio Shack</h3>
+                  <p class="info">Sales Associate <span>&bull;</span> <em class="date">November 2009 - May 2011</em></p>
+
+                  <p>
+                     Sales, Customer Service, Bank Functions, Managment
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+               Express.js, Node.js, Bootstarp, Data Visualization, Database Theory, Git, MS Visual Studio, Problem Solving, 
+               Communication, Troubleshooting, Detail Oriented, Organization, Self Motivated, Time Management, Driven, 
+               Teamwork, Leadership, Excel, Word, Computer Hardware, Networking
+            </p>
+
+            <div class="bars">
+
+               <ul class="skills">
+                  <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand html"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+                  <li><span class="bar-expand mysql"></span><em>MySQL</em></li>
+                  <li><span class="bar-expand mongodb"></span><em>MongoDB</em></li>
+               </ul>
+
+            </div><!-- end skill-bars -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="Spitball application preview" src="images/portfolio/spitball.PNG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Spitball</h5>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="Employee Managment Tool">
+                        <img alt="Employee managment tool screenshot" src="images/portfolio/employeeManagerSmall.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Employee Managment Tool</h5>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="Password Generator">
+                        <img alt="Password Generator screenshot" src="images/portfolio/pwGenSmall.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Password Generator</h5>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/sportsballsmall.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Sports Ball</h5>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/spitballModal.png" alt="Spitball application preview" />
+
+            <div class="description-box">
+               <h4>Spitball App</h4>
+               <p>An application used to share idea's and get constructive feedback form the community.</p>
+            </div>
+
+            <div class="link-box">
+               <a href="https://teamibs.herokuapp.com/" target="_blank">App   </a>
+               <a href="https://github.com/Jkbotham/TeamIBS" style ="margin-left: 24px" target="_blank">Github</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/employeeManager.png" alt="" />
+
+            <div class="description-box">
+               <h4>Employee Management Tool</h4>
+               <p>An employee tracking tool used to track employees using a command line prompt and MySQL database</p>
+            </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Jkbotham/homework/tree/master/12-homework" target="_blank">Github</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/pwGen.png" alt="Password Generator Screenshot" />
+
+            <div class="description-box">
+               <h4>Password Generator</h4>
+               <p>An app that creates random passwords using desired characteristics</p>
+            </div>
+
+            <div class="link-box">
+               <a href="./assets/pwgen/index.html" target="_blank">App   </a>
+               <a href="https://github.com/Jkbotham/homework/tree/master/03-homework" style ="margin-left: 24px" target="_blank">Github</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/sportsball.png" alt="" />
+
+            <div class="description-box">
+               <h4>Sports Ball</h4>
+               <p>Football app that shows users relivant information about upcoming NFL games.  Done with the use of API's.</p>
+            </div>
+
+            <div class="link-box">
+               <a href="./assets/TeamSimpsons/index.html" target="_blank">App</a>
+               <a href="https://github.com/Jkbotham/TeamSimpsons" style ="margin-left: 24px" target="_blank">Github</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+         </div><!-- modal-04 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row section-head">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get In Touch.</span></h1>
+
+         </div>
+
+         <div class="ten columns">
+
+            <p class="lead"> Looking forward to hearing from you
+            </p>
+
+         </div>
+
+      </div>
+
+      <div class="row">
+
+         <div class="eight columns">
+
+            <!-- form -->
+            <form action="" method="post" id="contactForm" name="contactForm">
+               <fieldset>
+
+                  <div>
+                     <label for="contactName">Name <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+                     <label for="contactEmail">Email <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+                     <label for="contactSubject">Subject</label>
+                     <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+               </fieldset>
+            </form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"> Error boy</div>
+            <!-- contact-success -->
+            <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+            </div>
+
+         </div>
+
+
+         <aside class="four columns footer-widgets">
+
+            <div class="widget widget_contact">
+
+               <h4>Location and Phone</h4>
+               <p class="address">
+                  James Botham<br>
+                  Wayzata, MN 55391 US<br>
+                  <span>(612) 388-3444</span>
+               </p>
+
+            </div>
+
+         </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+               <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2020</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+         </div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
